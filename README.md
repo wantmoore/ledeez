@@ -11,6 +11,7 @@ This is the beginnings of a project to build a barebones, low-cost, ESP32-based 
 ## Bill of Materials (BOM)
 All components sourced from JLCPCB and/or LCSC
 |Name|Designator|Quantity|Manufacturer Part|Manufacturer|LCSC Part #|
+|:--|:--|:--|:--|:--|:--|
 |TS-1101-C-W|SW1|1|TS-1101-C-W|XKB Connectivity|C318938|
 |470uF|CIN|1|VEJ471M1ETR-1010|LELON|C176672|
 |SN74AHCT32DR|U5|1|SN74AHCT32DR|TI|C7490|
