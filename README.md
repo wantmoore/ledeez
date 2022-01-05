@@ -31,3 +31,8 @@ All components sourced from JLCPCB and/or LCSC
 |10uF|C2|1|CA45-B-25V-10uF-K|CEC|C128259|
 
 PCB Revision v0.3 as of 2022-01-04
+
+## Future Dreams
+Change power+data outputs to 3-pin connectors (phoenix or QD)
+Add RST button
+Build IO shield (digital mic, relay for power output, pixel)
