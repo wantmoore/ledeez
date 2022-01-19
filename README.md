@@ -2,7 +2,8 @@
 This is the beginnings of a project to build a barebones, low-cost, ESP32-based board to control addressable LEDs.
 
 ## Schematic
-The schematic can be found here: [LEDeez_Schematic_v0.3.pdf](https://github.com/wantmoore/ledeez/files/7893585/LEDeez_Schematic_v0.3.pdf)
+A schematic PDF can be found here: [LEDeez_Schematic_v0.3.pdf](https://github.com/wantmoore/ledeez/files/7893585/LEDeez_Schematic_v0.3.pdf)
+![image](https://user-images.githubusercontent.com/1414156/150050731-e57e68b0-50a4-4806-a1ca-d002007842aa.jpg)
 
 ## PCB Render
 ![image](https://user-images.githubusercontent.com/1414156/148123311-166dc4df-ed63-4470-99db-23bd388e311c.png)
