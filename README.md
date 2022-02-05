@@ -1,6 +1,16 @@
 # ledeez
 This is the beginnings of a project to build a barebones, low-cost, ESP32-based board to control addressable LEDs.
 
+
+# The Story
+Since early-November 2021, I've invested about 60 hours designing my addressable LED development board. I ordered the initial v0.1 prototype from JLC PCB in late November and as soon as the order was submitted, I immediately went to work on refining the idea for v0.2.
+
+That first batch landed on my doorstep around the first week of December, and that's when I quickly realized I had a LOT to learn about power management. The low dropout voltage regulators (LDOs) I chose to get 5v and 3.3v from 12v on that first design were a very bad choice. I went back to work - researching designs and talking with people smarter than me and landed on implementing a buck converter design. This meant adding a lot of additional components. The Bill of Materials (BOM) on v0.1 was around 12 components and a minimalistic buck converter circuit was going to add about that same number of parts. A goal from the very beginning of my endeavor was to make this board super low-cost. I studied a few reference designs and every time I sat down to draw the schematic and place the parts on the PCB, I would discover there was a chip shortage or the buck converter chip alone was $2-3 each. More research.
+
+After a few cycles of this, I ran across the XLSEMI XL1509 - less than $0.30 per chip and only required four additional external components (input cap, inductor, schottky diode and output cap). Within a few hours, LEDeez v0.3 was done. The buck converter circuit replaced the original 12->5 LDO and I also removed the 12->3.3 LDO and replaced it with a more common AMS1117-3.3.
+
+This is where we are today. A list of hopes and dreams for future revisions can be found below and if you're interested in pitching in, feel free to Buy Me a Coffee or three.
+
 ## Schematic
 A schematic PDF can be found here: [LEDeez_Schematic_v0.3.pdf](https://github.com/wantmoore/ledeez/files/7893585/LEDeez_Schematic_v0.3.pdf)
 ![image](https://user-images.githubusercontent.com/1414156/150050731-e57e68b0-50a4-4806-a1ca-d002007842aa.jpg)
@@ -37,6 +47,6 @@ All components sourced from JLCPCB and/or LCSC
 PCB Revision v0.3 as of 2022-01-04
 
 ## Future Dreams
-Change power+data outputs to 3-pin connectors (phoenix or QD)
-Add RST button
-Build IO shield (digital mic, relay for power output, pixel)
+*Change power+data outputs to 3-pin connectors (phoenix or QD)
+*Add RST button
+*Build IO shield (digital mic, relay for power output, status ws2811 pixel)
