@@ -9,7 +9,7 @@ That first batch landed on my doorstep around the first week of December, and th
 
 After a few cycles of this, I ran across the XLSEMI XL1509 - less than $0.30 per chip and only required four additional external components (input cap, inductor, schottky diode and output cap). Within a few hours, LEDeez v0.3 was done. The buck converter circuit replaced the original 12->5 LDO and I also removed the 12->3.3 LDO and replaced it with a more common AMS1117-3.3.
 
-This is where we are today. A list of hopes and dreams for future revisions can be found below and if you're interested in pitching in, feel free to Buy Me a Coffee or three.
+This is where we are today. A list of hopes and dreams for future revisions can be found below and if you're interested in pitching in, feel free to [Buy Me a Coffee](https://www.buymeacoffee.com/wantmoore) or three.
 
 ## Schematic
 A schematic PDF can be found here: [LEDeez_Schematic_v0.3.pdf](https://github.com/wantmoore/ledeez/files/7893585/LEDeez_Schematic_v0.3.pdf)
