@@ -12,30 +12,31 @@ After a few cycles of this, I ran across the XLSEMI XL1509 - less than $0.30 per
 This is where we are today. A list of hopes and dreams for future revisions can be found below and if you're interested in pitching in, feel free to [Buy Me a Coffee](https://www.buymeacoffee.com/wantmoore) or three.
 
 ## Schematic
-A schematic PDF can be found here: [LEDeez_Schematic_v0.3.pdf](https://github.com/wantmoore/ledeez/files/7893585/LEDeez_Schematic_v0.3.pdf)
-![image](https://user-images.githubusercontent.com/1414156/150050731-e57e68b0-50a4-4806-a1ca-d002007842aa.jpg)
+![image](https://user-images.githubusercontent.com/1414156/154154673-4e9ffe78-b425-4473-8976-f4717318814b.png)
 
 ## PCB Render
-![image](https://user-images.githubusercontent.com/1414156/148123311-166dc4df-ed63-4470-99db-23bd388e311c.png)
+![image](https://user-images.githubusercontent.com/1414156/154154617-0f76bc32-188b-4f18-8ca2-39bf6148648d.png)
 
 ## 3D Render
-![image](https://user-images.githubusercontent.com/1414156/148123517-d97d6d51-6ee8-4fe8-9090-00e8e5dd27ef.png)
-![image](https://user-images.githubusercontent.com/1414156/148123627-43d4f660-5002-40db-a6f3-51d55d5592e5.png)
+![image](https://user-images.githubusercontent.com/1414156/154155044-f247e468-d465-41a6-b2f2-7e03ecc58163.png)
+![image](https://user-images.githubusercontent.com/1414156/154155419-26697523-6a3b-43e9-8fdc-1388fd92de59.png)
+![image](https://user-images.githubusercontent.com/1414156/154155287-8e6ef53e-0229-49d3-972a-1e6fe4199184.png)
 
 ## Bill of Materials (BOM)
+2022-02-15: This current BOM is based on 0.3 and needs updated for a few modified components in v1.0
 All components sourced from JLCPCB and/or LCSC
 |Name|Designator|Quantity|Manufacturer Part|Manufacturer|LCSC Part #|
 |:--|:--|:--|:--|:--|:--|
 |TS-1101-C-W|SW1|1|TS-1101-C-W|XKB Connectivity|C318938|
 |470uF|CIN|1|VEJ471M1ETR-1010|LELON|C176672|
-|SN74AHCT32DR|U5|1|SN74AHCT32DR|TI|C7490|
-|ESP32-WROOM-32E(4MB)|U3|1|ESP32-WROOM-32E(4MB)|Espressif Systems|C701341|
+|SN74AHCT125DR|U5|1|SN74AHCT125DR|TI|C7xxx|
+|ESP32-WROOM-32E(16MB)|U3|1|ESP32-WROOM-32E(16MB)|Espressif Systems|Cxxxxx|
 |PA001-2P|CN1,CN2,CN3,CN4|4|PA001-2P|HIWA|C128027|
 |HDR-M-2.54_1x8|J1|1|||C190820|
 |HDR-M-2.54_2x6|J2|1|||C124388|
 |HDR-M-2.54_1x2|J3|1|||C124375|
 |XL1509-5.0E1|U1|1|XL1509-5.0E1|XLSEMI|C61063|
-|180uF|COUT|1|ERZ1HM181F16OT|AISHI|C106716|
+|220uF|COUT|1|ERZ1HM181F16OT|AISHI|C10xxxx|
 |5.1|R3|1|0805W8F510KT5E|UniOhm|C17724|
 |1uF|C1|1|CL05A105KA5NQNC|SAMSUNG|C52923|
 |SS32_C65002|D1|1|SS32|MDD|C65002|
@@ -44,9 +45,7 @@ All components sourced from JLCPCB and/or LCSC
 |AC0805FR-7W51RL|R1,R2|2|AC0805FR-7W51RL|YAGEO|C727996|
 |10uF|C2|1|CA45-B-25V-10uF-K|CEC|C128259|
 
-PCB Revision v0.3 as of 2022-01-04
+PCB Revision v1.0 as of 2022-02-15
 
 ## Future Dreams
-*Change power+data outputs to 3-pin connectors (phoenix or QD)
-*Add RST button
 *Build IO shield (digital mic, relay for power output, status ws2811 pixel)
