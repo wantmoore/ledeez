@@ -3,6 +3,8 @@ This is the beginnings of a project to build a barebones, low-cost, ESP32-based 
 
 Boards are [now available for purchase](https://ledeez.square.site/) if that's your thing.
 
+Interactive Bill-of-Materials is [available here](https://wantmoore.github.io/ledeez/v1.0_ibom.html) if you're feeling nerdy.
+
 # The Story
 Since early-November 2021, I've invested about 60 hours designing my addressable LED development board. I ordered the initial v0.1 prototype from JLC PCB in late November and as soon as the order was submitted, I immediately went to work on refining the idea for v0.2.
 
